@@ -31,5 +31,8 @@ function Pet(first, last, species, breed, mood, hobbies, snackInterests) {
   };
 }
 
+// pet objects are used in console
+// eslint-disable-next-line
 let pet1 = new Pet('Birdtrude', 'Stein', 'bird', 'Starling', 'happy', ['singing', 'speaking', 'playing bells'], 'broccoli');
+// eslint-disable-next-line
 let pet2 = new Pet('Milo', 'Rehmer', 'cat', 'Grey Tabby', 'playful', ['running', 'jumping', 'cuddling'], 'expensive Urinary SO Cat Food');
